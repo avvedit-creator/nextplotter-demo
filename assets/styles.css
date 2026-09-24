@@ -160,7 +160,7 @@ h2{font-size:clamp(23px,3.1vw,32px);font-weight:800;letter-spacing:-.02em;}
 /* Stats strip */
 .stats-strip{padding:34px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
 .stats-row{display:grid;gap:24px;grid-template-columns:1fr;text-align:center;}
-@media(min-width:640px){.stats-row{grid-template-columns:repeat(3,1fr);text-align:left;}}
+@media(min-width:640px){.stats-row{grid-template-columns:repeat(2,1fr);text-align:left;}}
 .stat i{font-size:22px;color:var(--accent);margin-bottom:10px;display:block;}
 .stat strong{display:block;font-family:'Sora',sans-serif;font-size:17px;margin-bottom:2px;}
 .stat span{font-size:14px;color:var(--muted);}
