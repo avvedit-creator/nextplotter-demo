@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avvedit-creator.github.io/nextplotter-demo/sitemap.xml
