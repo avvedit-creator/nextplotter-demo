@@ -141,7 +141,7 @@ h1 em{font-style:normal;color:var(--accent);}
   display:flex;align-items:center;justify-content:center;
 }
 .hero-visual .mark{width:44%;height:auto;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
-.hero-visual .mark-3d{width:44%;aspect-ratio:1/1;height:auto;display:none;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
+.hero-visual .mark-3d{width:30%;aspect-ratio:1/1;height:auto;display:none;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
 .hero-visual .mark-3d.is-ready{display:block;}
 .hero-visual .swatch{
   position:absolute;bottom:20px;left:20px;right:20px;
