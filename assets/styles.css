@@ -139,9 +139,10 @@ h1 em{font-style:normal;color:var(--accent);}
   position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;
   background:var(--panel-dark);
   display:flex;align-items:center;justify-content:center;
+  max-width:300px;width:100%;margin:0 auto;
 }
-.hero-visual .mark{width:44%;height:auto;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
-.hero-visual .mark-3d{width:30%;aspect-ratio:1/1;height:auto;display:none;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
+.hero-visual .mark{width:60%;height:auto;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
+.hero-visual .mark-3d{width:60%;aspect-ratio:1/1;height:auto;display:none;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
 .hero-visual .mark-3d.is-ready{display:block;}
 .hero-visual .swatch{
   position:absolute;bottom:20px;left:20px;right:20px;
