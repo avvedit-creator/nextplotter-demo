@@ -223,6 +223,7 @@ h2{font-size:clamp(23px,3.1vw,32px);font-weight:800;letter-spacing:-.02em;}
 
 /* Testimonial */
 .testimonial{max-width:680px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center;}
+.testimonial + .testimonial{margin-top:20px;}
 .testimonial i.ph-quotes{font-size:30px;color:var(--accent);margin-bottom:14px;}
 .testimonial p.quote{font-size:19px;font-weight:600;font-family:'Sora',sans-serif;margin-bottom:16px;}
 .testimonial .who{font-size:14px;color:var(--muted);}
