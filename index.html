@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nextplotter | Cartelería y Letras Corpóreas en Maldonado, Uruguay</title>
+<meta name="description" content="Nextplotter: diseño y producción de cartelería, letras corpóreas, vinilo impreso, esmerilados y lonas en Maldonado y Punta del Este. Consultanos tu idea por WhatsApp.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nextplotter">
+<meta property="og:title" content="Nextplotter | Comunicación visual en Maldonado, Uruguay">
+<meta property="og:description" content="Cartelería, letras corpóreas, vinilo impreso, esmerilados, lonas y cartel luminoso. Nos dedicamos exclusivamente a diseñar tu idea.">
+<meta property="og:locale" content="es_UY">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nextplotter | Comunicación visual en Maldonado, Uruguay">
+<meta name="twitter:description" content="Cartelería, letras corpóreas, vinilo impreso, esmerilados y lonas. Consultanos tu idea por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@phosphor-icons/web"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://nextplotter.example/#negocio",
+      "name": "Nextplotter Comunicación Visual",
+      "alternateName": "Nextplotter",
+      "description": "Cartelería, letras corpóreas, vinilo impreso, esmerilados, lonas y cartel luminoso en Maldonado y Punta del Este, Uruguay.",
+      "telephone": "+598 92 674 721",
+      "email": "nextplotter22@gmail.com",
+      "areaServed": ["Maldonado", "Punta del Este", "Uruguay"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Maldonado",
+        "addressCountry": "UY"
+      },
+      "image": "assets/favicon.svg",
+      "sameAs": [
+        "https://www.instagram.com/nextplotter/",
+        "https://www.facebook.com/Nextplotter",
+        "https://www.threads.com/@nextplotter"
+      ],
+      "review": {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Mauricio Sampayo Lopez" },
+        "datePublished": "2020-05-26",
+        "reviewBody": "lo recomiendo, exelente servicio",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "publisher": { "@type": "Organization", "name": "Facebook" }
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "Nextplotter",
+      "url": "https://nextplotter.example/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde trabaja Nextplotter?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos en Maldonado y Punta del Este, Uruguay." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El diseño está incluido?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Nos dedicamos exclusivamente a diseñar tu idea antes de producirla, para que el resultado tenga un acabado moderno y profesional." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué materiales usan?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con vinilos de alta calidad: vinilo impreso, esmerilado, letras corpóreas, lonas y cartel luminoso, según lo que necesite tu proyecto." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo pido una cotización?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Escribinos por WhatsApp o por Instagram (@nextplotter) contándonos tu idea y te asesoramos." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --ink:#181316;
+    --ink-soft:#4d4348;
+    --paper:#faf7f6;
+    --paper-dim:#f1e9e8;
+    --surface:#ffffff;
+    --accent:#c1272d;
+    --accent-dark:#8f1d22;
+    --accent-ink:#ffffff;
+    --line:#e7dcdb;
+    --muted:#726669;
+    --radius:16px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#f3ecea;
+      --ink-soft:#cdc0bd;
+      --paper:#181316;
+      --paper-dim:#221b1d;
+      --surface:#1e1719;
+      --accent:#e05a52;
+      --accent-dark:#c1272d;
+      --accent-ink:#1a1112;
+      --line:#332a2b;
+      --muted:#a4979a;
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Inter',sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.brand{font-family:'Sora',sans-serif;}
+  a{color:inherit;text-decoration:none;}
+  img,svg{max-width:100%;display:block;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:14px 26px;border-radius:999px;
+    font-weight:600;font-size:15px;white-space:nowrap;
+    border:2px solid transparent;
+    cursor:pointer;transition:transform .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn:active{transform:translateY(0) scale(.98);}
+  .btn-primary{background:var(--accent);color:var(--accent-ink);}
+  .btn-primary:hover{background:var(--accent-dark);}
+  .btn-ghost{border-color:var(--ink);color:var(--ink);}
+
+  /* Header */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:color-mix(in srgb, var(--paper) 86%, transparent);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1120px;margin:0 auto;gap:16px;}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:-.01em;text-transform:uppercase;}
+  .brand .dot{width:26px;height:26px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .brand .dot i{color:#fff;font-size:14px;}
+  .nav-links{display:none;gap:30px;font-weight:500;font-size:15px;}
+  .nav-links a{opacity:.75;transition:opacity .15s;}
+  .nav-links a:hover{opacity:1;}
+  .nav-cta{display:none;}
+  .nav-toggle{display:flex;background:none;border:none;font-size:24px;color:var(--ink);cursor:pointer;}
+  @media(min-width:860px){
+    .nav-links{display:flex;}
+    .nav-cta{display:inline-flex;}
+    .nav-toggle{display:none;}
+  }
+  #mobileMenu{display:none;flex-direction:column;gap:2px;padding:8px 24px 18px;border-bottom:1px solid var(--line);background:var(--paper);}
+  #mobileMenu.open{display:flex;}
+  #mobileMenu a{padding:10px 0;font-weight:500;border-bottom:1px solid var(--line);}
+  #mobileMenu a:last-child{border-bottom:none;}
+  @media(min-width:860px){#mobileMenu{display:none !important;}}
+
+  /* Hero */
+  .hero{position:relative;overflow:hidden;padding:60px 0 52px;}
+  .hero-grid{display:grid;gap:44px;align-items:center;}
+  @media(min-width:900px){.hero-grid{grid-template-columns:1.15fr .85fr;}}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--paper-dim);border:1px solid var(--line);
+    padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;color:var(--muted);
+    margin-bottom:20px;
+  }
+  .eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);}
+  h1{font-size:clamp(30px,4.4vw,48px);line-height:1.1;letter-spacing:-.02em;font-weight:800;margin-bottom:18px;}
+  h1 em{font-style:normal;color:var(--accent);}
+  .hero p.lead{font-size:17px;color:var(--muted);max-width:46ch;margin-bottom:14px;}
+  .hero p.micro{font-size:14px;color:var(--muted);margin-bottom:26px;}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;}
+
+  .hero-visual{
+    position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;
+    background:linear-gradient(155deg,var(--accent) 0%,var(--accent-dark) 100%);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .hero-visual .mark{width:46%;opacity:.95;}
+  .hero-visual .swatch{
+    position:absolute;bottom:20px;left:20px;right:20px;
+    background:var(--surface);border-radius:var(--radius);
+    padding:16px 18px;display:flex;justify-content:space-between;align-items:flex-end;
+    box-shadow:0 20px 40px -16px rgba(0,0,0,.45);
+  }
+  .swatch .tag{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:4px;}
+  .swatch .big{font-family:'Sora',sans-serif;font-weight:800;font-size:15px;}
+  .swatch i{font-size:24px;color:var(--accent);}
+
+  section{padding:68px 0;}
+  .section-head{max-width:640px;margin:0 auto 40px;}
+  .section-head.center{text-align:center;margin-left:auto;margin-right:auto;}
+  h2{font-size:clamp(23px,3.1vw,32px);font-weight:800;letter-spacing:-.02em;}
+  .section-head p{color:var(--muted);margin-top:12px;font-size:16px;}
+
+  /* Stats strip */
+  .stats-strip{padding:34px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .stats-row{display:grid;gap:24px;grid-template-columns:1fr;text-align:center;}
+  @media(min-width:640px){.stats-row{grid-template-columns:repeat(3,1fr);text-align:left;}}
+  .stat i{font-size:22px;color:var(--accent);margin-bottom:10px;display:block;}
+  .stat strong{display:block;font-family:'Sora',sans-serif;font-size:17px;margin-bottom:2px;}
+  .stat span{font-size:14px;color:var(--muted);}
+
+  /* Services bento */
+  .bento{display:grid;gap:16px;grid-template-columns:1fr;}
+  @media(min-width:640px){.bento{grid-template-columns:repeat(2,1fr);}}
+  @media(min-width:960px){.bento{grid-template-columns:repeat(3,1fr);}}
+  .b-card{
+    border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;gap:14px;
+    border:1px solid var(--line);background:var(--surface);
+    transition:transform .2s ease;
+  }
+  .b-card:hover{transform:translateY(-4px);}
+  .b-card.accent{background:var(--accent);color:var(--accent-ink);border-color:transparent;}
+  .b-card.dark{background:var(--ink);color:var(--paper);border-color:transparent;}
+  .b-card i{font-size:26px;color:var(--accent);}
+  .b-card.accent i,.b-card.dark i{color:inherit;}
+  .b-card h3{font-size:17px;margin-bottom:4px;}
+  .b-card p{font-size:14px;color:var(--muted);}
+  .b-card.accent p,.b-card.dark p{color:inherit;opacity:.88;}
+  .b-card .example{font-size:13px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px;margin-top:auto;}
+  .b-card.accent .example,.b-card.dark .example{border-color:rgba(255,255,255,.25);}
+
+  /* Why */
+  .why{background:var(--ink);color:var(--paper);}
+  .why .section-head p{color:var(--ink-soft);}
+  .why-grid{display:grid;gap:28px;grid-template-columns:1fr;}
+  @media(min-width:720px){.why-grid{grid-template-columns:repeat(3,1fr);}}
+  .why-item{border-top:1px solid color-mix(in srgb, var(--paper) 18%, transparent);padding-top:20px;}
+  .why-item i{font-size:24px;color:var(--accent);margin-bottom:12px;display:block;}
+  .why-item h3{font-size:17px;margin-bottom:6px;}
+  .why-item p{font-size:14px;color:var(--ink-soft);}
+
+  /* Portfolio teaser (placeholders, no real photos yet) */
+  .tag-grid{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px;}
+  .tag-chip{
+    display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;
+    background:var(--paper-dim);border:1px solid var(--line);font-size:14px;font-weight:600;
+  }
+  .tag-chip i{color:var(--accent);font-size:16px;}
+  .portfolio-note{
+    background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);
+    padding:22px 24px;font-size:14px;color:var(--muted);
+  }
+  .portfolio-note strong{color:var(--ink);}
+
+  /* Testimonial */
+  .testimonial{max-width:680px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center;}
+  .testimonial i.ph-quotes{font-size:30px;color:var(--accent);margin-bottom:14px;}
+  .testimonial p.quote{font-size:19px;font-weight:600;font-family:'Sora',sans-serif;margin-bottom:16px;}
+  .testimonial .who{font-size:14px;color:var(--muted);}
+  .testimonial .reply{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted);}
+
+  /* FAQ */
+  .faq{display:flex;flex-direction:column;gap:12px;max-width:760px;margin:0 auto;}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden;}
+  .faq-item summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:600;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary i{color:var(--accent);transition:transform .2s ease;flex-shrink:0;}
+  .faq-item[open] summary i{transform:rotate(45deg);}
+  .faq-item p{padding:0 22px 20px;color:var(--muted);font-size:14.5px;}
+
+  .cta-band{
+    background:var(--accent);color:var(--accent-ink);
+    border-radius:28px;padding:52px 32px;text-align:center;
+    margin:0 24px;
+  }
+  .cta-band h2{color:inherit;}
+  .cta-band p{opacity:.92;margin:14px auto 6px;max-width:52ch;}
+  .cta-band p.micro{font-size:13.5px;opacity:.8;margin-bottom:24px;}
+  .cta-band .btn-primary{background:var(--accent-ink);color:var(--accent);}
+  .cta-band .btn-primary:hover{opacity:.9;background:var(--accent-ink);}
+
+  footer{padding:44px 0 32px;border-top:1px solid var(--line);}
+  .foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center;}
+  .foot-links{display:flex;flex-wrap:wrap;gap:20px;font-size:14px;color:var(--muted);}
+  .foot-note{font-size:13px;color:var(--muted);margin-top:22px;text-align:center;}
+
+  .wa-float{
+    position:fixed;bottom:22px;right:22px;z-index:60;
+    width:56px;height:56px;border-radius:50%;
+    background:#25D366;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 24px -6px rgba(0,0,0,.35);
+  }
+  .wa-float i{font-size:26px;color:#fff;}
+
+  [data-reveal]{opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1);}
+  [data-reveal].is-visible{opacity:1;transform:none;}
+  @media (prefers-reduced-motion: reduce){
+    [data-reveal]{opacity:1;transform:none;transition:none;}
+    .btn,.b-card{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="brand"><span class="dot"><i class="ph ph-trend-up"></i></span>Nextplotter</a>
+    <div class="nav-links">
+      <a href="#servicios">Servicios</a>
+      <a href="#por-que">Por qué elegirnos</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <a class="btn btn-primary nav-cta" href="https://wa.me/59892674721?text=Hola%20Nextplotter%2C%20quiero%20consultar%20sobre%20un%20trabajo%20de%20carteler%C3%ADa" target="_blank" rel="noopener">Consultanos por WhatsApp</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+      <i class="ph ph-list"></i>
+    </button>
+  </nav>
+  <div id="mobileMenu">
+    <a href="#servicios">Servicios</a>
+    <a href="#por-que">Por qué elegirnos</a>
+    <a href="#trabajos">Trabajos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://wa.me/59892674721?text=Hola%20Nextplotter%2C%20quiero%20consultar%20sobre%20un%20trabajo%20de%20carteler%C3%ADa" target="_blank" rel="noopener" style="color:var(--accent);">Consultanos por WhatsApp →</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Comunicación visual en Maldonado y Punta del Este</div>
+      <h1>Nos dedicamos exclusivamente a <em>diseñar tu idea</em></h1>
+      <p class="lead">Trabajos en vinilos de alta calidad: cartelería en general, letras corpóreas, esmerilados, vinilo impreso, lonas y cartel luminoso.</p>
+      <p class="micro">📍 Maldonado y Punta del Este · +2.400 seguidores en Instagram</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/59892674721?text=Hola%20Nextplotter%2C%20quiero%20consultar%20sobre%20un%20trabajo%20de%20carteler%C3%ADa" target="_blank" rel="noopener">Consultanos por WhatsApp</a>
+        <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero-visual" data-reveal>
+      <svg class="mark" viewBox="0 0 64 64">
+        <path d="M10 46 L24 32 L32 39 L52 16" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M52 16 L52 28 M52 16 L40 16" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <div class="swatch">
+        <div>
+          <span class="tag">Vinilo de corte</span>
+          <span class="big">Diseño + producción</span>
+        </div>
+        <i class="ph ph-scissors"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-strip">
+  <div class="wrap stats-row">
+    <div class="stat" data-reveal>
+      <i class="ph ph-instagram-logo"></i>
+      <strong>+2.400 seguidores</strong>
+      <span>nos siguen en Instagram</span>
+    </div>
+    <div class="stat" data-reveal>
+      <i class="ph ph-map-pin"></i>
+      <strong>Maldonado y Punta del Este</strong>
+      <span>trabajamos en la zona</span>
+    </div>
+    <div class="stat" data-reveal>
+      <i class="ph ph-palette"></i>
+      <strong>Diseño incluido</strong>
+      <span>no solo imprimimos: diseñamos tu idea</span>
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Todo lo que necesita la imagen de tu negocio</h2>
+      <p>Cartelería, corpóreos y vinilo trabajados de punta a punta: de la idea a la instalación.</p>
+    </div>
+    <div class="bento" data-reveal>
+      <div class="b-card accent">
+        <i class="ph ph-flag-banner"></i>
+        <div><h3>Cartelería en general</h3><p>Carteles y señalética para locales, oficinas y eventos.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-cube"></i>
+        <div><h3>Letras y logos corpóreos</h3><p>Letras corpóreas con acabado moderno y elegante que aportan presencia e identidad a la marca.</p></div>
+        <p class="example">Ejemplo real: letras corpóreas de 3 cm de espesor para una empresa de turismo en Maldonado.</p>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-drop-half"></i>
+        <div><h3>Esmerilados</h3><p>Vinilo esmerilado para vidrios: privacidad y terminación prolija sin perder luz.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-printer"></i>
+        <div><h3>Vinilo impreso</h3><p>Impresión en vinilo de alta calidad para cualquier superficie.</p></div>
+      </div>
+      <div class="b-card dark">
+        <i class="ph ph-arrows-out"></i>
+        <div><h3>Gran formato / Lonas</h3><p>Lonas de gran formato para fachadas, obras y eventos.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-t-shirt"></i>
+        <div><h3>Uniformes</h3><p>Personalización de indumentaria e uniformes con vinilo textil.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-lightbulb"></i>
+        <div><h3>Cartel luminoso</h3><p>Carteles con luz para que tu marca se vea de día y de noche.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-storefront"></i>
+        <div><h3>Vidrieras</h3><p>Vestidas de vidriera para locales en Punta del Este.</p></div>
+      </div>
+      <div class="b-card">
+        <i class="ph ph-house-line"></i>
+        <div><h3>Cartelería inmobiliaria</h3><p>Carteles de venta y alquiler para inmobiliarias y particulares.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="por-que">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Por qué elegir Nextplotter</h2>
+    </div>
+    <div class="why-grid" data-reveal>
+      <div class="why-item">
+        <i class="ph ph-pencil-line"></i>
+        <h3>Diseñamos tu idea</h3>
+        <p>Nos dedicamos exclusivamente a diseñar tu idea antes de producirla, no solo a imprimir.</p>
+      </div>
+      <div class="why-item">
+        <i class="ph ph-seal-check"></i>
+        <h3>Vinilos de alta calidad</h3>
+        <p>Materiales pensados para que tu marca se vea bien y dure en exterior.</p>
+      </div>
+      <div class="why-item">
+        <i class="ph ph-chat-circle-dots"></i>
+        <h3>Trato directo</h3>
+        <p>Consultás por WhatsApp o Instagram y te asesoramos en cada detalle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trabajos">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Trabajos reales</h2>
+      <p>Esta demo todavía no tiene fotos de tus trabajos — la reemplazamos por las categorías reales de tu Instagram.</p>
+    </div>
+    <div class="tag-grid" data-reveal>
+      <span class="tag-chip"><i class="ph ph-heart"></i>Clientes</span>
+      <span class="tag-chip"><i class="ph ph-arrows-out"></i>Gran Lona</span>
+      <span class="tag-chip"><i class="ph ph-cube"></i>Corpóreos</span>
+      <span class="tag-chip"><i class="ph ph-flag-banner"></i>Cartelería</span>
+      <span class="tag-chip"><i class="ph ph-t-shirt"></i>Uniformes</span>
+      <span class="tag-chip"><i class="ph ph-lightbulb"></i>Cartel luminoso</span>
+      <span class="tag-chip"><i class="ph ph-drop-half"></i>Esmerilados</span>
+      <span class="tag-chip"><i class="ph ph-storefront"></i>Vidriera PdE</span>
+      <span class="tag-chip"><i class="ph ph-house-line"></i>Real Estate</span>
+    </div>
+    <p class="portfolio-note" data-reveal><strong>Con fotos reales, esta sección se convierte en tu mejor vendedor.</strong> Mientras tanto, podés ver el catálogo completo de trabajos en <a href="https://www.instagram.com/nextplotter/" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;">@nextplotter en Instagram →</a></p>
+  </div>
+</section>
+
+<section id="resenas">
+  <div class="wrap">
+    <div class="section-head center" data-reveal>
+      <h2>Lo que dicen los clientes</h2>
+    </div>
+    <div class="testimonial" data-reveal>
+      <i class="ph ph-quotes"></i>
+      <p class="quote">"Lo recomiendo, exelente servicio."</p>
+      <p class="who">Mauricio Sampayo Lopez · reseña en Facebook, mayo 2020</p>
+      <p class="reply">Nextplotter respondió: "Muchas gracias"</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head center" data-reveal>
+      <h2>Preguntas frecuentes</h2>
+    </div>
+    <div class="faq" data-reveal>
+      <details class="faq-item">
+        <summary>¿Dónde trabaja Nextplotter? <i class="ph ph-plus"></i></summary>
+        <p>Trabajamos en Maldonado y Punta del Este, Uruguay.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿El diseño está incluido? <i class="ph ph-plus"></i></summary>
+        <p>Sí. Nos dedicamos exclusivamente a diseñar tu idea antes de producirla, para que el resultado tenga un acabado moderno y profesional.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué materiales usan? <i class="ph ph-plus"></i></summary>
+        <p>Trabajamos con vinilos de alta calidad: vinilo impreso, esmerilado, letras corpóreas, lonas y cartel luminoso, según lo que necesite tu proyecto.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cómo pido una cotización? <i class="ph ph-plus"></i></summary>
+        <p>Escribinos por WhatsApp o por Instagram (@nextplotter) contándonos tu idea y te asesoramos.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="cta-band" data-reveal>
+    <div class="wrap" style="padding:0;">
+      <h2>¿Querés destacar tu negocio?</h2>
+      <p>Contanos tu idea y te respondemos por WhatsApp o Instagram.</p>
+      <p class="micro">Consultanos — sin compromiso.</p>
+      <a class="btn btn-primary" href="https://wa.me/59892674721?text=Hola%20Nextplotter%2C%20quiero%20consultar%20sobre%20un%20trabajo%20de%20carteler%C3%ADa" target="_blank" rel="noopener">Consultanos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <a href="#top" class="brand"><span class="dot"><i class="ph ph-trend-up"></i></span>Nextplotter</a>
+    <div class="foot-links">
+      <a href="https://www.instagram.com/nextplotter/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/Nextplotter" target="_blank" rel="noopener">Facebook</a>
+      <a href="mailto:nextplotter22@gmail.com">nextplotter22@gmail.com</a>
+      <a href="https://wa.me/59892674721" target="_blank" rel="noopener">+598 92 674 721</a>
+    </div>
+  </div>
+  <p class="foot-note">Maldonado, Uruguay · Sitio de demostración creado por Renueva Smart — pendiente de ajustar con fotos y datos reales del cliente. Web diseñada por Renueva Smart.</p>
+</footer>
+
+<a class="wa-float" href="https://wa.me/59892674721?text=Hola%20Nextplotter%2C%20quiero%20consultar%20sobre%20un%20trabajo%20de%20carteler%C3%ADa" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <i class="ph ph-whatsapp-logo"></i>
+</a>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var menu = document.getElementById('mobileMenu');
+  toggle.addEventListener('click', function(){
+    var open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ menu.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); });
+  });
+})();
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els = document.querySelectorAll('[data-reveal]');
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function(el){ el.classList.add('is-visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, {threshold:.2});
+  els.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+</body>
+</html>
