@@ -19,8 +19,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=2">
+<link rel="stylesheet" href="assets/styles.css?v=3">
 <script type="module" src="https://unpkg.com/@phosphor-icons/web"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.186.0/build/three.module.js",
+    "three/examples/jsm/environments/RoomEnvironment.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/environments/RoomEnvironment.js",
+    "three/examples/jsm/postprocessing/EffectComposer.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/postprocessing/EffectComposer.js",
+    "three/examples/jsm/postprocessing/RenderPass.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/postprocessing/RenderPass.js",
+    "three/examples/jsm/postprocessing/BokehPass.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/postprocessing/BokehPass.js",
+    "three/examples/jsm/postprocessing/UnrealBloomPass.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/postprocessing/UnrealBloomPass.js",
+    "three/examples/jsm/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/controls/OrbitControls.js"
+  }
+}
+</script>
+<script type="module" src="assets/logo3d.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -152,7 +166,8 @@
       </div>
     </div>
     <div class="hero-visual" data-reveal>
-      <img class="mark" src="assets/logo.png" alt="Logo de Nextplotter" width="240" height="240">
+      <img class="mark" id="logoMarkFallback" src="assets/logo.png" alt="Logo de Nextplotter" width="240" height="240">
+      <canvas class="mark mark-3d" id="logo3d" aria-hidden="true"></canvas>
       <div class="swatch">
         <div>
           <span class="tag">Vinilo de corte</span>
