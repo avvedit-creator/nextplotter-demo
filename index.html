@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nextplotter | Cartelería y Letras Corpóreas en Maldonado, Uruguay</title>
 <meta name="description" content="Nextplotter: diseño y producción de cartelería, letras corpóreas, vinilo impreso, esmerilados y lonas en Maldonado y Punta del Este. Consultanos tu idea por WhatsApp.">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" href="assets/logo.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Nextplotter">
 <meta property="og:title" content="Nextplotter | Comunicación visual en Maldonado, Uruguay">
@@ -36,7 +36,7 @@
         "addressLocality": "Maldonado",
         "addressCountry": "UY"
       },
-      "image": "assets/favicon.svg",
+      "logo": "assets/logo.png",
       "sameAs": [
         "https://www.instagram.com/nextplotter/",
         "https://www.facebook.com/Nextplotter",
@@ -91,11 +91,12 @@
     --paper:#faf7f6;
     --paper-dim:#f1e9e8;
     --surface:#ffffff;
-    --accent:#c1272d;
-    --accent-dark:#8f1d22;
+    --accent:#9a2418;
+    --accent-dark:#731a10;
     --accent-ink:#ffffff;
     --line:#e7dcdb;
     --muted:#726669;
+    --panel-dark:#18120f;
     --radius:16px;
   }
   @media (prefers-color-scheme: dark){
@@ -105,8 +106,8 @@
       --paper:#181316;
       --paper-dim:#221b1d;
       --surface:#1e1719;
-      --accent:#e05a52;
-      --accent-dark:#c1272d;
+      --accent:#d1594c;
+      --accent-dark:#9a2418;
       --accent-ink:#1a1112;
       --line:#332a2b;
       --muted:#a4979a;
@@ -147,8 +148,7 @@
   }
   nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1120px;margin:0 auto;gap:16px;}
   .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:-.01em;text-transform:uppercase;}
-  .brand .dot{width:26px;height:26px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-  .brand .dot i{color:#fff;font-size:14px;}
+  .brand img{width:28px;height:28px;border-radius:50%;flex-shrink:0;}
   .nav-links{display:none;gap:30px;font-weight:500;font-size:15px;}
   .nav-links a{opacity:.75;transition:opacity .15s;}
   .nav-links a:hover{opacity:1;}
@@ -184,10 +184,10 @@
 
   .hero-visual{
     position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;
-    background:linear-gradient(155deg,var(--accent) 0%,var(--accent-dark) 100%);
+    background:var(--panel-dark);
     display:flex;align-items:center;justify-content:center;
   }
-  .hero-visual .mark{width:46%;opacity:.95;}
+  .hero-visual .mark{width:44%;height:auto;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35));}
   .hero-visual .swatch{
     position:absolute;bottom:20px;left:20px;right:20px;
     background:var(--surface);border-radius:var(--radius);
@@ -307,7 +307,7 @@
 
 <header>
   <nav>
-    <a href="#top" class="brand"><span class="dot"><i class="ph ph-trend-up"></i></span>Nextplotter</a>
+    <a href="#top" class="brand"><img src="assets/logo.png" alt="Nextplotter" width="28" height="28">Nextplotter</a>
     <div class="nav-links">
       <a href="#servicios">Servicios</a>
       <a href="#por-que">Por qué elegirnos</a>
@@ -341,10 +341,7 @@
       </div>
     </div>
     <div class="hero-visual" data-reveal>
-      <svg class="mark" viewBox="0 0 64 64">
-        <path d="M10 46 L24 32 L32 39 L52 16" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-        <path d="M52 16 L52 28 M52 16 L40 16" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      </svg>
+      <img class="mark" src="assets/logo.png" alt="Logo de Nextplotter" width="240" height="240">
       <div class="swatch">
         <div>
           <span class="tag">Vinilo de corte</span>
@@ -523,7 +520,7 @@
 
 <footer>
   <div class="wrap foot-grid">
-    <a href="#top" class="brand"><span class="dot"><i class="ph ph-trend-up"></i></span>Nextplotter</a>
+    <a href="#top" class="brand"><img src="assets/logo.png" alt="Nextplotter" width="28" height="28">Nextplotter</a>
     <div class="foot-links">
       <a href="https://www.instagram.com/nextplotter/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.facebook.com/Nextplotter" target="_blank" rel="noopener">Facebook</a>
