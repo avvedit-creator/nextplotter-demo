@@ -10,6 +10,14 @@
   });
 })();
 (function(){
+  var dropdowns = document.querySelectorAll('details.has-dropdown');
+  document.addEventListener('click', function(e){
+    dropdowns.forEach(function(d){
+      if (d.open && !d.contains(e.target)) d.open = false;
+    });
+  });
+})();
+(function(){
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var els = document.querySelectorAll('[data-reveal]');
   if (reduce || !('IntersectionObserver' in window)) {

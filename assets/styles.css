@@ -62,7 +62,7 @@ header{
 nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1120px;margin:0 auto;gap:16px;}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:-.01em;text-transform:uppercase;}
 .brand img{width:28px;height:28px;border-radius:50%;flex-shrink:0;}
-.nav-links{display:none;gap:30px;font-weight:500;font-size:15px;}
+.nav-links{display:none;align-items:center;gap:30px;font-weight:500;font-size:15px;}
 .nav-links a{opacity:.75;transition:opacity .15s;}
 .nav-links a:hover{opacity:1;}
 .nav-cta{display:none;}
@@ -77,6 +77,34 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:14px 2
 #mobileMenu a{padding:10px 0;font-weight:500;border-bottom:1px solid var(--line);}
 #mobileMenu a:last-child{border-bottom:none;}
 @media(min-width:860px){#mobileMenu{display:none !important;}}
+
+/* Servicios dropdown (desktop, in .nav-links) */
+.has-dropdown{position:relative;}
+.has-dropdown summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:4px;opacity:.75;transition:opacity .15s;}
+.has-dropdown summary::-webkit-details-marker{display:none;}
+.has-dropdown summary:hover{opacity:1;}
+.has-dropdown[open] summary{opacity:1;}
+.has-dropdown summary i{font-size:13px;transition:transform .2s ease;}
+.has-dropdown[open] summary i{transform:rotate(180deg);}
+.dropdown-menu{
+  position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%);
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:10px;display:flex;flex-direction:column;gap:2px;min-width:240px;
+  box-shadow:0 20px 40px -16px rgba(0,0,0,.45);
+}
+.dropdown-menu a{display:block;padding:9px 12px;border-radius:8px;font-size:14px;font-weight:500;opacity:.85;}
+.dropdown-menu a:hover{background:var(--paper-dim);opacity:1;}
+.dropdown-menu a[aria-current="page"]{color:var(--accent);opacity:1;font-weight:600;}
+
+/* Servicios dropdown (mobile, in #mobileMenu) */
+#mobileMenu details.mobile-servicios{border-bottom:1px solid var(--line);}
+#mobileMenu details.mobile-servicios summary{list-style:none;cursor:pointer;padding:10px 0;font-weight:500;display:flex;justify-content:space-between;align-items:center;}
+#mobileMenu details.mobile-servicios summary::-webkit-details-marker{display:none;}
+#mobileMenu details.mobile-servicios summary i{font-size:13px;transition:transform .2s ease;}
+#mobileMenu details.mobile-servicios[open] summary i{transform:rotate(180deg);}
+#mobileMenu .dropdown-list{display:flex;flex-direction:column;gap:2px;padding:0 0 12px 10px;}
+#mobileMenu .dropdown-list a{padding:8px 0;border-bottom:none;font-weight:400;font-size:14px;opacity:.8;}
+#mobileMenu .dropdown-list a[aria-current="page"]{color:var(--accent);opacity:1;font-weight:600;}
 
 /* Breadcrumb (service pages) */
 .breadcrumb{font-size:13px;color:var(--muted);margin-bottom:18px;}
