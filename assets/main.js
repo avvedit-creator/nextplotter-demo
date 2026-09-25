@@ -1,4 +1,13 @@
 (function(){
+  var header = document.querySelector('header');
+  if (!header) return;
+  var onScroll = function(){
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, {passive:true});
+})();
+(function(){
   var toggle = document.getElementById('navToggle');
   var menu = document.getElementById('mobileMenu');
   toggle.addEventListener('click', function(){
